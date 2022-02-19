@@ -1,6 +1,6 @@
 echo off
 
-pyinstaller -F -w -i test.ico auto.py
+pyinstaller -F -w -i test.ico codetg.py
 
 
 rmdir /s /q __pycache__
